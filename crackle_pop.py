@@ -12,20 +12,25 @@ def crackle_pop():
 
     while number != 101:
         
-        if number % 3 == 0 and number % 5  == 0:
-        	print "CracklePop"
-        	number += 1
+        if number % 3 == 0 or number % 5  == 0:
+        	if number % 3 == 0 and number % 5  == 0:
+        		print "CracklePop"
+        	elif number % 3 == 0:
+        		print "Crackle"
+        	else:
+        		print "Pop"
         
-        if number % 3 == 0:
-        	print "Crackle"
-        	number += 1
+#        elif number % 3 == 0:
+ #       	print "Crackle"
+  #      	number += 1
         
-        if number % 5 == 0:
-        	print "Pop"
-        	number += 1
+   #     elif number % 5 == 0:
+    #    	print "Pop"
+     #   	number += 1
         
         else:
         	print number
-        	number += 1
         
+        number += 1
+        	    
 crackle_pop()
