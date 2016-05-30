@@ -11,7 +11,8 @@ def crackle_pop():
     number = 1
 
     while number != 101:
-        if number % 3 and number % 5 == 0:
+        
+        if number % 3 == 0 and number % 5  == 0:
         	print "CranklePop"
         	number += 1
         
@@ -28,8 +29,3 @@ def crackle_pop():
         	number += 1
         
 crackle_pop()
-
-# Need to fix logic
-# 5 returns CracklPop
-# 15 returns Pop
-# Results should be reversed
