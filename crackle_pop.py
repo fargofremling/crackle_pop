@@ -8,13 +8,11 @@
 
 def crackle_pop():
 
-    number = 1
-
     for number in xrange (1, 101):
         
-        if number % 3 == 0 or number % 5  == 0:
+        if number % 3 == 0 or number % 5 == 0:
         	
-        	if number % 3 == 0 and number % 5  == 0:
+        	if number % 3 == 0 and number % 5 == 0:
         		print "CracklePop"
         	
         	elif number % 3 == 0:
