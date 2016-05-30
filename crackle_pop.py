@@ -13,7 +13,7 @@ def crackle_pop():
     while number != 101:
         
         if number % 3 == 0 and number % 5  == 0:
-        	print "CranklePop"
+        	print "CracklePop"
         	number += 1
         
         if number % 3 == 0:
